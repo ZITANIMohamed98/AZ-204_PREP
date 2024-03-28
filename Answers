@@ -1,1 +1,37 @@
-#
+Answer 24; (Function app)
+False, The code doesn’t log the message processed time but it logs the insertion and the expiration time.
+
+Answer 25: (Function App)
+True, Azure Queue storage trigger for Azure Functions | Microsoft Learn
+
+Answer 26: (Function App) 
+True, Azure Queue storage trigger for Azure Functions | Microsoft Learn
+
+Answer 27: (Function App)
+True
+ 
+Answer 28: (Web App)
+Add the path to the static content generation tool to WEBSITE_RUN_FROM_PACKAGE setting in the host.json file. False, because WEBSITE_RUN_FROM_PACKAGE should be point to the zip file running the whole app service and not the static content
+Add a PreBuild target in the websites csproj project file that runs the static content generation script. True
+Create a file named run.cmd in the folder /run that calls a script which generates the static content and deploys the website. False, we need an automatic solution as the deployment is continuos.
+
+Create a file named .deployment in the root of the repository that calls a script which generates the static content and deploys the website. True
+# Search_for_Doc
+
+Answer 29:
+
+Answer 31: (Web App)
+Box 1: New-AzResourceGroup. Box 2: New-AzAppServicePlan. Box 3: New-AzWebApp. Box 4: New-AzWebAppSlot.
+Answer 32: (Function App)
+False, Consumption plan is limited in compute power.
+Answer 33: 
+# Search_for_Doc
+Answer 37 - 38:
+First, the source is getting the heatbeat for the last hour and if it is less than 5, the next question has the right description
+37: False
+38: True
+Answer 39:
+False, this alert is scheduled to run in 1 hour.
+ 
+
+
